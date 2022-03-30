@@ -15,20 +15,20 @@
     color: white;
 }
 .head {
-    padding: 10px 0px;
-    font-size: 50px;
+    padding: 1rem 0rem;
+    font-size: 50p5rem;
 }
 .quizText {
-    padding: 10px 0px;
-    font-size: 20px;
+    padding: 1rem 0rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
 }
 .quizbtn {
-    margin-top: 10px;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 1rem;
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;

@@ -1,3 +1,4 @@
+import "./index.css";
 import Home from "./Home";
 import QuizFinsightPage from "./QuizFinsightPage";
 import Questions from "./Questions";
@@ -8,6 +9,9 @@ import Navbar from "./Navbar/Navbar";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FrontPage from "./FrontPage/FrontPage";
+import Footer from "./Footer/Footer";
+import Login from "./Login/Login";
+import SignUp from "./SignUP/SignUp";
 
 function App() {
     return (
@@ -21,6 +25,9 @@ function App() {
                 <Route path='/answer' element={<Answers />} />
                 <Route path='/correct-answer' element={<CorrectAnswers />} />
                 <Route path='/result' element={<Result />} />
+                <Route path='/footer' element={<Footer />} />
+                <Route path='/login' element={<Login />} />
+                <Route path='/sign-up' element={<SignUp />} />
             </Routes>
         </BrowserRouter>
     );
