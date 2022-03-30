@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-const index = () => {
+const Result = () => {
     return (
         <div>
             <div class='question-container'>
@@ -30,4 +30,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default Result;

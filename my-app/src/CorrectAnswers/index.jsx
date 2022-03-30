@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-const index = () => {
+const CorrectAnswer = () => {
     return (
         <div class='question-container'>
             <p class='title-text'>I don't play the odds, I play the man</p>
@@ -30,4 +30,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default CorrectAnswer;

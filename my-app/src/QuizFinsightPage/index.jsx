@@ -1,10 +1,9 @@
 import React from "react";
 import "./styles.css";
 
-const index = () => {
+const Finsight = () => {
     return (
         <div class='grid-container'>
-            <p class='title-text'>Quiz Finsight</p>
             <div class='card-1'>
                 <a class='card' href='/questions/index.html'>
                     <img
@@ -34,4 +33,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default Finsight;

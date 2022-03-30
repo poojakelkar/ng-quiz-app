@@ -1,0 +1,40 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.heading {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.head {
+    padding: 10px 0px;
+    font-size: 50px;
+}
+.quizText {
+    padding: 10px 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.quizbtn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background-color: #da7d13;
+}
+.quizbtn:hover {
+    background-color: #ffaa65;
+}
