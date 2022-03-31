@@ -40,3 +40,6 @@ img {
 .icon {
     margin-left: 2rem;
 }
+.link {
+    text-decoration: none;
+}

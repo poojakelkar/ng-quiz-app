@@ -14,7 +14,7 @@ img {
     height: 3rem;
     margin-right: 4rem;
 }
-.container {
+.sign-up-container {
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -26,27 +26,29 @@ img {
     justify-content: center;
     color: white;
 }
-form {
-    border-radius: 5px;
+.sign-up-form {
     border: 1px solid white;
-    display: flex;
-    flex-direction: column;
     width: 30rem;
     height: 30rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
 }
-h1 {
+.sign-up-title {
     display: flex;
     justify-content: center;
 }
-input {
+.input-sign-up {
     height: 3rem;
     border-radius: 5px;
     font-size: 16px;
 }
-.signUpButton {
+.sign-up-button {
     padding: 1rem 2rem;
     border-radius: 5px;
+    width: 100%;
     border: none;
     cursor: pointer;
     color: white;
@@ -57,4 +59,9 @@ input {
 span {
     cursor: pointer;
     font-size: 18px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 0rem;
 }

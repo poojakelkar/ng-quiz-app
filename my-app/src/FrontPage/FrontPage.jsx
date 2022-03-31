@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const FrontPage = () => {
@@ -7,7 +8,9 @@ const FrontPage = () => {
             <div className='heading'>
                 <h1 className='head'>Welcome to Quiz QnA</h1>
                 <p className='quizText'>Play a quiz for differnt categories!</p>
-                <button className='quizbtn'>Start Quiz</button>
+                <Link className='link' to='/finsight-page'>
+                    <button className='quizbtn'>Start Quiz</button>
+                </Link>
             </div>
         </div>
     );

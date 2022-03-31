@@ -1,17 +1,16 @@
 import "./index.css";
 import Home from "./Home";
-import QuizFinsightPage from "./QuizFinsightPage";
-import Questions from "./Questions";
-import Answers from "./Answers";
-import CorrectAnswers from "./CorrectAnswers";
-import Result from "./Result";
+import QuizFinsightPage from "./QuizFinsightPage/index";
+import Questions from "./Questions/Questions";
+import CorrectAnswers from "./CorrectAnswers/CorrectAnswer";
+import Result from "./Result/Result";
 import Navbar from "./Navbar/Navbar";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FrontPage from "./FrontPage/FrontPage";
 import Footer from "./Footer/Footer";
 import Login from "./Login/Login";
 import SignUp from "./SignUP/SignUp";
+import Answers from "./Answers/Answers";
 
 function App() {
     return (

@@ -1,12 +1,5 @@
-:root {
-    --background-color: #19212c;
-    --font-color: #f7f7f7;
-    --pointer-color: #888;
-    --dark-color: #171a1f;
-}
 body {
-    background-color: var(--dark-color);
-    font-family: sans-serif;
+    background-color: var(--background-color);
 }
 .title-text {
     display: flex;
@@ -25,9 +18,9 @@ body {
     padding: 0rem 10rem;
 }
 .card-1 {
+    border: 1px solid white;
     width: 16rem;
     height: 20rem;
-    background-color: var(--background-color);
     color: var(--font-color);
     border-radius: 1.35rem;
 }
@@ -52,11 +45,15 @@ body {
 .card-2 {
     width: 16rem;
     height: 20rem;
-    background-color: var(--background-color);
     color: var(--font-color);
     border-radius: 1.35rem;
+    border: 1px solid white;
 }
 .card {
     text-decoration: none;
     color: var(--font-color);
+}
+.link {
+    text-decoration: none;
+    color: white;
 }

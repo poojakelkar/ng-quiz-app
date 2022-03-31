@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { AccountCircle, Search } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -16,7 +17,9 @@ const Navbar = () => {
                     <Search />
                 </div>
                 <div className='right'>
-                    <h5 className='login'>Login</h5>
+                    <Link className='link' to='/login'>
+                        <h5 className='login'>Login</h5>
+                    </Link>
                     <AccountCircle className='icon'></AccountCircle>
                 </div>
             </div>
